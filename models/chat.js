@@ -10,9 +10,6 @@ const hoursandminutes = () => {
 }
 
 const chatSchema = new mongoose.Schema({
-    id : {
-        type: String,
-    },
     name : {
         type: String,
         required: true
