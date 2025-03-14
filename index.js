@@ -4,7 +4,7 @@ import { Server } from 'socket.io';
 import cors from 'cors'
 
 const app = express();
-const port = 8080
+const port = 3000
 
 app.use(cors('http://localhost:3000'))
 
