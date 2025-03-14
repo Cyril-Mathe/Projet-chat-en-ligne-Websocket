@@ -44,3 +44,5 @@ const chatValidation = Joi.object({
         'string.empty': 'Le message ne peut pas être vide'
     })
 })
+
+export { chat, chatValidation }
